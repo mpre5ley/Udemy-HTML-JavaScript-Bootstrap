@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> My First Web Page </title>
+    <meta name="description" content="Page Description Here"/>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <style type="text/css">
+        Body {
+            color: red;
+        }
+
+    </style>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</head>
+
+<body>
+<p>This is a Sample HTML Document.</p>
+This Javascript function will capitalize my name:
+<p>Enter your name: <input type="text" id="fname" onchange="myFunction()"> </p>
+<p>This is Line 1 <br> This is line 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is Line 3 </p>
+<h1>This is Header 1</h1>
+<h2>This is Header 2</h2>
+<h3>This is Header 3</h3>
+<h4>This is Header 4</h4>
+
+<p> <strong> Bold Text </strong> <br>
+<em> Italic Text </em> <br>
+<mark> Marked Text </mark> <br>
+<small> Small Text </small> <br>
+<del> Deleted Text </del> <br>
+<ins> Inserted Text </ins> <br>
+<sub> Subscript Text </sub> <br>
+<sup> Superscript Text </sup> <br>
+<u> Underlined Text </u> <br>
+<strike> Strike Through Text </strike> <br>
+<u><strong><em> Bold, Italic, Underlined Text</em></strong></u>
+</p>
+</body>
+
+</html>
